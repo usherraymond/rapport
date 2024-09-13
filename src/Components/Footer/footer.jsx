@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './footer.css'
-// import { GrLocation } from "react-icons/gr";
+import { GrLocation } from "react-icons/gr";
 import { MdTravelExplore } from "react-icons/md";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
@@ -30,7 +30,7 @@ import 'aos/dist/aos.css'
                 <input data-aos="fade-up" type="text" placeholder='Enter Email Address...'/>
                 <button data-aos="fade-up" className='btn flex' type="submit">
                   SEND 
-                  {/* <GrLocation className='icon'/> */}
+                  <GrLocation className='icon'/>
                 </button>
               </div>
 
