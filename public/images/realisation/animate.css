@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    animation: image 10s infinite alternate;
+}
+@keyframes image{
+    0%{
+       background-color: aqua;
+        
+    }
+    25%{
+       background-color: blue;
+    }
+    50%{
+       background-color: red;
+    }
+    75%{
+        background-color: goldenrod;
+    }
+    100%{
+        background-color: greenyellow;
+    }
+}
+
+
+
+
+.container{
+    position: relative;
+    display: flex;
+    margin-top: 280px;
+    gap: 50px;
+}
+button{
+    padding: 15px 15px;
+    color: white;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.haud:hover{
+    border-radius: 0;
+    color: #333;
+    background-color: black;
+    text-shadow: 0 0 50px white,
+                 0 0 150px white;
+    box-shadow: 0 0 100px white,
+                0 0 200px white,
+                0 0 300px white,
+                0 0 400px white;           
+}
+.haud:active{
+    transform: translate(-12px);
+}
+.bas:hover{
+    border-radius: 0;
+    color: #333;
+    background-color: black;
+    box-shadow: 0 0 100px red,
+                0 0 200px red,
+                0 0 300px red,
+                0 0 400px red;
+}
+.bas:active{
+    transform: translate(12px);
+}

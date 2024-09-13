@@ -1,0 +1,20 @@
+
+
+#button{
+    background-color: red;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+}
+#button:active{
+    transform: translate(-6px);
+}
+#btn{
+    background-color: goldenrod;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+}
+#btn:active{
+    transform: translate(6px);
+}

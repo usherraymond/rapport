@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #020a11;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+
+.neon_btn1{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 25px;
+    letter-spacing: 2px;
+    color: #e2924c;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+.neon_btn1:hover{
+    color: #042644;
+    background: #4de323;
+    box-shadow: 0 0 10px #4de323,
+                0 0 40px #4de323,
+                0 0 80px #4de323;
+}
+
+.neon_btn2{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 25px;
+    letter-spacing: 2px;
+    color: #5ccbdc;
+    border: 4px solid #5ccbdc;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+.neon_btn2:hover{
+    box-shadow: 0 0 10px #5ccbdc,
+                0 0 20px #5ccbdc,
+                0 0 60px #5ccbdc;
+    text-shadow: 0 0 20px #5ccbdc,
+                 0 0 40px #5ccbdc;
+}

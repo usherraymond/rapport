@@ -1,0 +1,126 @@
+:root{
+    --white:#fff;
+    --bg-color:#080808;
+    --light-color:#666;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all .3s linear;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.box-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+}
+
+.box-container .box{
+    position: relative;
+    height: 35rem;
+    width: 24rem;
+    border-radius: 2rem;
+    background-color: var(--white);
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.box-container .box:hover{
+    border-radius: 0;
+    box-shadow: 0 0 25px #999,
+                0 0 25px #999,
+                0 0 25px #999;
+}
+
+.box-container .box .pic1{
+    background: url(image/img1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-container .box .pic1:hover{
+    background: url(image/img5.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-container .box .pic2{
+    background: url(image/img2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-container .box .pic2:hover{
+    background: url(image/img6.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-container .box .pic3{
+    background: url(image/img3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-container .box .pic3:hover{
+    background: url(image/img7.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box-container .box .content{
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(30rem);
+}
+
+.box-container .box .content h3{
+    font-size: 2rem;
+    color: black;
+}
+
+.box-container .box .content p{
+    font-size: 1.1rem;
+    color: black;
+    line-height: 1.5;
+    text-transform: lowercase;
+    margin-bottom: 2rem;
+}
+
+.box-container .box .content .btn{
+    font-size: 1.1rem;
+    color: black;
+    background-color: var(--white);
+    border-radius: 2rem;
+    line-height: 1.5;
+    text-transform:uppercase;
+    padding:.5rem 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    box-shadow: .1rem .5rem .1rem #999;
+}
+
+.box-container .box .content .btn:hover{
+    background-color: #333;
+    color: var(--white);
+}
+
+.box-container .box:hover .content{
+    transform: translateY(0);
+}

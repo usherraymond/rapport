@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="scroll.css">
+</head>
+<body> 
+   
+
+
+    <div class="container">
+        <div class="photo">
+            <div class="image">
+               <img src="image/img1.jpeg">
+            </div>
+            <div class="image">
+               <img src="image/img2.jpeg">
+            </div>
+            <div class="image">
+               <img src="image/img3.jpeg">
+            </div>
+            <div class="image">
+               <img src="image/img4.jpeg">
+            </div>
+            <div class="image">
+               <img src="image/img5.jpeg">
+            </div>
+            <div class="image">
+               <img src="image/img6.jpeg">
+            </div>
+            <div class="image">
+               <img src="image/img7.jpeg">
+            </div>
+            <div class="image">
+               <img src="image/img8.jpeg">
+            </div>
+        </div>
+    
+        <div class="button">
+            <button class="prev"><FontAwesomeIcon icon="fa-solid fa-arrow-left" /></button>
+            <button class="next"><FontAwesomeIcon icon="fa-solid fa-arrow-right"/></button>
+        </div>
+
+
+      <select id="bgchoice" onchange="changeBG()">
+         <option></option>
+         <option value="red">Red</option>
+         <option value="ivory">Ivory</option>
+         <option value="blue">Blue</option>
+         <option value="black">Black</option>
+         <option value="green">green</option>
+         <option value="pink">pink</option>
+      </select>
+    </div>
+
+
+    <script src="scroll.js"></script>
+</body>
+</html>
